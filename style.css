@@ -1,0 +1,519 @@
+html{
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+}
+body{
+    margin: 0;
+}
+nav{
+    background-color: transparent;
+    height: 70px;
+}
+nav ul{
+    float:right;
+    list-style: none;
+    margin-left: 20px;
+    color: red;
+    margin-right: 25px;
+    font-size: 14px;
+}
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin-top: 15px;*/
+}
+.background li{
+    margin-top:15px;
+}
+.background {
+    background-color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    float: right;
+    margin-left:20px;
+    height: 63px;
+    margin-top: -16px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.induct a{
+    text-decoration: none;
+    color: #F47DC4;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.Hero {
+    background-image: url(hero-image.png);
+    background-size: cover;
+    background-position: center center;
+    height:100%;
+    width: 100%;
+    max-height:720px;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+.title-container h1 {
+    color: white;
+    font-size: 130px;
+    text-shadow: -2px -2px 20px rgba(0,0,0,0.25);
+    Display: inline-block;
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+.title-container h2 {
+    color: white;
+    text-shadow: -2px -2px 20px rgba(0,0,0,0.25);
+    Display: inline-block;
+    font-size: 36px;
+    margin-top: -100;
+}
+.induct-button{
+    height: 70px;
+    border-radius: 10px;
+    background: white;
+    color: #f47dc4;
+    width: 300px;
+    font-size: 20px;
+    box-shadow: -2px 2px 20px 0 rgba(0,0,0,0.25);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.give-back-button{
+    height: 70px;
+    border-radius: 10px;
+    background: #f47dc4;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    border: 2px solid hsl(0, 0%, 100%);
+    cursor: pointer;
+    margin-left: 10px;
+}
+.featured {
+    background-color: white;
+    height:100%;
+    width:100%;
+    max-height: 720px;
+}
+.featured-title{
+    text-align: center;
+    font-size: 32px;
+    color: #f47dc4;
+    width: 100%;
+    display: inline-block;
+    padding-top: 0;
+    text-transform: uppercase;
+}
+.featured-sub-text{
+    color: #f47dc4;
+    width: 756px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    padding-top: 15px;
+    text-align: center;
+}
+.featured-description {
+    margin-bottom: 0;
+}
+.featured-dog-container {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+.center-dog-container{
+    width: 308px;
+    height: 400px;
+}
+
+.large-dog-left, .left-dog{
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+}
+
+.center-dog-container {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.center-dog {
+    width: 147px;
+    height: 192px;
+}
+
+.large-dog-right, .right-dog {
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+}
+.featured-buttons{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.featured-induct-button {
+    height: 70px;
+    border-radius: 10px;
+    background: #f47dc4;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    box-shadow: -2px 2px 20px 0 rgba(0,0,0,0.25);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.featured-give-back-button{
+    height: 70px;
+    border-radius: 10px;
+    background: white;
+    color: #f47dc4;
+    width: 300px;
+    font-size: 20px;
+    border: 2px solid hsl(0, 0%, 100%);
+    cursor: pointer;
+    margin-left: 10px;
+    border-color: #F47DC4;
+}
+.charity-title{
+    font-size: 93px;
+    margin: 0;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+.charity-sub-title{
+    width: 522px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 42px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding: 15px;
+    margin-top: -5px;
+}
+header::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+.charity {
+    background-image: url(images/pink-background.png);
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    max-height:720px;
+    margin-left:0px;
+    text-align:center;
+    color: white;
+    z-index: 2;
+}
+.charity-sub{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.charity-sub h2 {
+    font-size: 50px;
+}
+.charity-text {
+    width: 522px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.footprints {
+    position: absolute;
+    width: 266px;
+    right: 40px;
+    opacity: .2;
+}
+.charity-dog{
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+}
+.bottom-dog{
+    width: 430px;
+    height: 156px;
+    margin-top: 64px;
+}
+/*Hero Section*/
+@media (max-width: 970px) {
+    .title-container h1 {
+        font-size: 98px;
+        margin-top: -70px;
+    }
+    .title-container h2 {
+        margin-top: -55px;
+    }
+    .title-container h1 {
+        margin-top: -24px;
+    }
+}
+@media (max-width: 740px) {
+    .title-container h1 {
+        font-size: 65px;
+        margin-top: -70px;
+    }
+    .title-container h2 {
+        margin-top: -55px;
+        font-size: 16px;
+    }
+    .title-container h1 {
+    margin-top: 5px;
+    }
+    .induct-button {
+        height: 53px;
+        width: 223px;
+        margin-right: -38px;
+        font-size: 19px;
+    }
+    .give-back-button {
+        height: 53px;
+        width: 223px;
+        font-size: 19px;
+        margin-left: 53px;
+    }
+    .nav ul li a {
+        display: none;
+    }
+    .background {
+        display: none;
+    }
+    .giving-back-tab {
+        display: none;
+    }
+}
+@media (max-width: 570px) {
+    .title-container h1 {
+        font-size: 44px;
+    }
+    .title-container h2 {
+        margin-top: -24px;
+        font-size: 11px;
+        width: 388px;
+    }
+    .hero-buttons{
+        padding-top: 34px;
+    }
+    .give-back-button {
+        height: 56px;
+        width: 264px;
+        font-size: 18px;
+        margin-top: 13px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .induct-button {
+        height: 56px;
+        width: 266px;
+        font-size: 18px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    nav .hof-tab {
+        margin-right: -26px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+    }
+}
+/*Featured Section*/
+@media (max-width: 925px) {
+    .featured-sub-text{
+        width: 734px;
+        padding-top: 0;
+        font-size: 19px;
+    }
+    .featured-dog-container {
+        height: 321px;
+    }
+    .large-dog-left, .left-dog {
+        height: 300px;
+        width: 200px;
+        margin-right: -14px;
+    }
+    .large-dog-right, .right-dog {
+        height: 300px;
+        width: 200px;
+        margin-left: -14px;
+    }
+    .featured-induct-button {
+        height: 53px;
+        width: 223px;
+        margin-right: -21px;
+        font-size: 19px;
+    }
+    .featured-give-back-button {
+        height: 53px;
+        width: 223px;
+        font-size: 17px;
+        margin-left: 40px;
+        margin-top: 13px;
+    }
+    .center-dog {
+        width: 126px;
+        height: 150px;
+    }
+}
+@media (max-width: 705px) {
+    .featured-title {
+        font-size: 23px;
+    }
+
+    .featured-sub-text {
+        width: 525px;
+    }
+
+    .large-dog-left, .left-dog {
+        height: 260px;
+        width: 160px;
+    }
+
+    .center-dog {
+        width: 100px;
+        height: 129px;
+    }
+
+    .large-dog-right, .right-dog {
+        height: 260px;
+        width: 160px;
+    }
+
+    .center-dog-container {
+        width: 240px;
+        height: 263px;
+    }
+
+    .featured-dog-container {
+        height: 261px;
+    }
+
+    @media (max-width: 570px) {
+        .featured-title {
+            font-size: 16px;
+        }
+
+        .featured-sub-text {
+            width: 300px;
+            font-size: 8px;
+        }
+
+        .featured-dog-container {
+            height: auto;
+        }
+
+        .large-dog-left, .left-dog {
+            height: 375px;
+            width: 275px;
+            display: BLOCK;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .center-dog-container {
+            height: auto;
+            width: 300px;
+            display: inline-block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .center-dog {
+            width: 134px;
+            height: 165px;
+        }
+
+        .large-dog-right, .right-dog {
+            height: 375px;
+            width: 275px;
+            display: BLOCK;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .featured-induct-button {
+            margin-left: auto;
+            margin-right: auto;
+            height: 45px;
+            width: 228px;
+            font-size: 15px;
+        }
+
+        .featured-give-back-button {
+            margin-left: auto;
+            margin-right: auto;
+            height: 44px;
+            width: 224px;
+            font-size: 15px;
+            display: block;
+        }
+
+        .featured-buttons {
+            padding-bottom: 40px;
+        }
+    }
+        /*CHARITY SECTION*/
+        @media (max-width: 935px) {
+            .footprints {
+                display: none;
+            }
+            .charity-title {
+                font-size: 77px;
+                padding-top: 54px;
+            }
+            .charity-sub-title {
+                font-size: 38px;
+            }
+        }
+            @media (max-width: 780px) {
+                .charity-title {
+                    font-size: 48px;
+                }
+                .charity-sub-title {
+                    font-size: 24px;
+                    text-align: center;
+                    width: 400px;
+                }
+                p {
+                    text-align: center;
+                }
+                .charity-text {
+                    width: 296px;
+                    font-size: 15px;
+                }
+                .bottom-dog {
+                    margin-top: 101px;
+                    margin-left: -37px;
+                }
+        }
+}
+
